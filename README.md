@@ -19,23 +19,23 @@ If you do not have Java installed, you can install it using your distribution's 
     ```
     sudo pacman -S jre-openjdk
     yay -S java-openjfx-bin
-
 *(Note: The installer script will automatically check for Java and alert you if it is missing).*
 
 ## Installation Instructions
 
 1. **Clone this repository** to a folder on your computer.
-2. **Open your terminal** and navigate to that extracted folder.
+   ```
+   git clone https://github.com/alpallel/PathSim-for-linux
+3. **Open your terminal** and navigate to that extracted folder.
     ```
     cd [YOUR_FOLDER]
-3. **Make the installer and uninstaller executable** by running:
+4. **Make the installer and uninstaller executable** by running:
    ```
    chmod +x install.sh
    chmod +x uninstall.sh
-4. **Run the installer on your terminal:**
+5. **Run the installer on your terminal:**
     ```
     ./install.sh
-
 ## How to Run
 Once installed, you do not need to use the terminal anymore.
 
@@ -45,11 +45,9 @@ Simply open your desktop environment's Application Menu (Start Menu) or launcher
 1. Navigate to this repository's folder:
     ```
     cd [REPOSITORY_FOLDER]
-
 2. Run the uninstall script:
     ```
     ./uninstall.sh
-
 Alternatively, you can manually delete the following two generated files/folders:
 
 * ~/.local/share/PathSim/ (The application folder)

@@ -23,13 +23,13 @@ If you do not have Java installed, you can install it using your distribution's 
 
 ## Installation Instructions
 
-1. **Clone this repository** to a folder on your computer.
+1. **Clone this repository** to a folder on your computer:
    ```
    git clone https://github.com/alpallel/PathSim-for-linux
-3. **Open your terminal** and navigate to that extracted folder.
+3. **Navigate to that extracted folder:**
     ```
     cd PathSim-for-linux/
-4. **Make the installer and uninstaller executable** by running:
+4. **Make the installer and uninstaller executable:**
    ```
    chmod +x install.sh
    chmod +x uninstall.sh
@@ -42,10 +42,10 @@ Once installed, you do not need to use the terminal anymore.
 Simply open your desktop environment's Application Menu (Start Menu) or launcher, search for PathSim, and click it to launch the simulator.
 
 ## Uninstallation
-1. Navigate to this repository's folder:
+1. **Navigate to the repository folder**:
     ```
     cd [REPOSITORY_FOLDER]
-2. Run the uninstall script:
+2. **Run the uninstall script**:
     ```
     ./uninstall.sh
 Alternatively, you can manually delete the following two generated files/folders:

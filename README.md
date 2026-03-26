@@ -28,7 +28,7 @@ If you do not have Java installed, you can install it using your distribution's 
    git clone https://github.com/alpallel/PathSim-for-linux
 3. **Open your terminal** and navigate to that extracted folder.
     ```
-    cd [YOUR_FOLDER]
+    cd PathSim-for-linux/
 4. **Make the installer and uninstaller executable** by running:
    ```
    chmod +x install.sh

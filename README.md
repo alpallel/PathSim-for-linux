@@ -6,7 +6,7 @@ PathSim is a graphical MIPS Processor Simulator. This package includes a univers
 
 ## Prerequisites
 
-To run PathSim, you must have **Java** installed on your system.
+To run PathSim, you must have **Java** and **OpenJFX** installed on your system.
 
 If you do not have Java installed, you can install it using your distribution's package manager:
 * **Ubuntu/Mint/Debian:**
